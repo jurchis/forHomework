@@ -8,6 +8,15 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        LogicalOp doFor = new LogicalOp();
+        doFor.displayCountUp();
+        doFor.displayCountDown();
+        doFor.displayCountInterval();
+        doFor.displayCountIntervalOrder();
+        doFor.displayEven();
+        doFor.displayOdds();
+        doFor.displayCountSum();
+        doFor.displayMean();
+        doFor.printAsterisk();
     }
 }
